@@ -9,7 +9,7 @@ public class DbOperation {
     public static void getConnection() throws SQLException {
 
         if(connection == null){
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/chat_application", "root", "@@@upadhyay");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/chat_application", "root", "password");
         }
 
     }
